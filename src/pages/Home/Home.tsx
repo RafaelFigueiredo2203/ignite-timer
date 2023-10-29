@@ -4,7 +4,10 @@ import { HandPalm, Play } from "phosphor-react";
 import { useEffect, useState } from 'react';
 import { useForm } from "react-hook-form";
 import * as zod from 'zod';
-import { CountDownContainer, FormContainer, HomeContainer, MinutesAmountInput, Separator, StartCountDownButton, StopCountDownButton, TaskInput } from "./styles";
+import { Countdown } from './components/Countdown';
+import { NewCycleForm } from './components/NewCycleForm';
+import { HomeContainer, StartCountDownButton, StopCountDownButton } from "./styles";
+
 
 
 const newCycleFormValidationSchemma = zod.object({
@@ -121,39 +124,10 @@ export function Home(){
     <HomeContainer>
       
       <form onSubmit={handleSubmit(handleCreateNewCycle)} action="">
-        <FormContainer>
-        <label htmlFor="task">Vou trabalhar em </label>
-        <TaskInput 
-        disabled={!!activeCycle}
-        type="text" list="task-suggestions" id="task" placeholder="De um nome ao seu projeto" {...register('task')}/>
+        <NewCycleForm/>
+        <Countdown/>
 
-        <datalist id="task-suggestions">
-          <option value="Projeto 1"></option>
-          <option value="Projeto 2"></option>
-          <option value="Projeto 3"></option>
-        </datalist>
-
-        <label htmlFor="minutesAmount">Durante</label>
-        <MinutesAmountInput 
-        disabled={!!activeCycle}
-        step={5} 
-        min={1} 
-        max={60} 
-        type="number" 
-        id="minutesAmount" 
-        placeholder="00"
-        {...register('minutesAmount', {valueAsNumber:true})} />
-      
-        <span>minutos.</span>
-        </FormContainer>
-
-      <CountDownContainer>
-        <span>{minutes[0]}</span>
-        <span>{minutes[1]}</span>
-        <Separator>:</Separator>
-        <span>{seconds[0]}</span>
-        <span>{seconds[1]}</span>
-      </CountDownContainer>
+    
 
       {activeCycle ? (
       <StopCountDownButton onClick={handleInterruptCycle}  type="button"><HandPalm size={24}/> Interromper </StopCountDownButton >
