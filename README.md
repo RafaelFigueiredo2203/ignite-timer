@@ -1,27 +1,43 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center" >
+  Desafio TodoList - Ignite
+</h1>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+<br>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<h1 align="center" >
 
-- Configure the top-level `parserOptions` property like this:
+  
+![image](https://github.com/RafaelFigueiredo2203/ignite-timer/assets/60237326/f5d2d2e1-6750-4656-9520-aee49477dcf5)
+![image](https://github.com/RafaelFigueiredo2203/ignite-timer/assets/60237326/ed5456dc-dccf-4140-8921-8e11d51781cd)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+  </h1>
+
+
+## ✨ Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Vite](https://vitejs.dev/)
+- [Tailwind](https://tailwindcss.com/)
+- [Shadcnui](https://ui.shadcn.com/)
+- [Typescript](https://www.typescriptlang.org/)
+
+
+
+## 💻 Projeto
+
+Esse desafio teve o objetivo de colocar os meus conhecimentos em pratica ,de acordo com o módulo 1 do Ignite , fiquei muito feliz em conseguir concluir mais essa etapa do módulo.
+
+## 🚀 Como executar
+
+- Clone o repositório
+- Instale as dependências com `yarn` ou `npm install`
+- Inicie o servidor com `yarn start` ou `npm start`
+
+
+Never Stop Learning.🚀 🚀 🚀 
+
