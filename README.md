@@ -10,9 +10,10 @@
 <h1 align="center" >
 
   
-![image](https://github.com/RafaelFigueiredo2203/ignite-timer/assets/60237326/f5d2d2e1-6750-4656-9520-aee49477dcf5)
+![image](https://github.com/RafaelFigueiredo2203/ignite-timer/assets/60237326/6251b020-fb32-4782-9727-9df0c95a7895)
 
-![image](https://github.com/RafaelFigueiredo2203/ignite-timer/assets/60237326/ed5456dc-dccf-4140-8921-8e11d51781cd)
+![image](https://github.com/RafaelFigueiredo2203/ignite-timer/assets/60237326/59a53faf-9a67-426e-874e-788be027bfc9)
+
 
 
   </h1>
