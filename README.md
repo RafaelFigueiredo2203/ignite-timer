@@ -11,6 +11,7 @@
 
   
 ![image](https://github.com/RafaelFigueiredo2203/ignite-timer/assets/60237326/f5d2d2e1-6750-4656-9520-aee49477dcf5)
+
 ![image](https://github.com/RafaelFigueiredo2203/ignite-timer/assets/60237326/ed5456dc-dccf-4140-8921-8e11d51781cd)
 
 
