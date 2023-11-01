@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Ignite Timer , inspirado na técnica pomodoro.🚀🕐✅
 <br> <br>
 
-Este projeto foi construído durante o módulo 2 de ReactJs no Ignite, abordando o assunto de SPA(Single Page Application), utilizamos o React-Router-Dom para criar as rotas na aplicação , vimos a facilidade de criar formulários com o react-hook-form.
+Este projeto foi desenvolvido durante o módulo 2 de ReactJs no Ignite, abordando o assunto de SPA(Single Page Application), utilizamos o React-Router-Dom para criar as rotas na aplicação , vimos a facilidade de criar formulários com o react-hook-form.
 <br> <br>
 
 
